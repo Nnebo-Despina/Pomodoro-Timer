@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Prompt';
+    src: url(/FONTS/Prompt/Prompt-Regular.ttf);
+}
+@font-face {
+    font-family: 'Prompt-m';
+    src: url(/FONTS/Prompt/Prompt-Light.ttf);
+}
+body{
+    background-color: #FFDBF7;
+}
+.first-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 20px;
+}
+/* #header-text{
+    color: #FF00C7;
+    font-size: 80px;
+    font-family: 'Prompt';
+} */
+.first-header img{
+    height: 50%;
+}
+#start-button-beginning{
+    color: #FF00C7;
+    font-size: 20px;
+    font-family: 'Prompt';
+    background-color: transparent;
+    border: 0.5px solid #FF00C7;
+    padding: 8px 30px;
+    width: fit-content;
+    border-radius: 20px;
+    transition: 0.3s all ease-in; 
+}
+#start-button-beginning:hover{
+    background-color: #FF00C7;
+    border: none;
+    color: #FFDBF7;
+}
+#start-button-second{
+    color: #FF00C7;
+    font-size: 20px;
+    font-family: 'Prompt';
+    background-color: transparent;
+    border: 0.5px solid #FF00C7;
+    padding: 8px 30px;
+    width: fit-content;
+    border-radius: 20px;
+    display: none;
+    transition: 0.3s all ease-in;
+}
+#start-button-second:hover{
+    background-color: #FF00C7;
+    border: none;
+    color: #FFDBF7;
+}
+.header-text-div{
+    display: flex;
+    color: #FF00C7;
+    font-size: 80px;
+    font-family: 'Prompt';
+}
+
+#control-timer{
+    display: none;
+    gap: 60px;
+}
+#control-timer img{
+    height: 65px;
+    transition: all 0.3s ease-in-out;
+}
+#control-timer img:hover{
+    height: 64px;
+}
