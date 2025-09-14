@@ -20,7 +20,7 @@ function subtractTimeLogic() {
         if (minutes === 0 && seconds === 0) {
             clearInterval(interval);
             interval = null;
-            headerText.textContent = "Done! Start 5 minutes break?";
+            headerText.textContent = "Done! Start studying?";
             timerMinutes.style.display = "none";
             colon.style.display = "none";
             startButtonTwo.style.display = "block"

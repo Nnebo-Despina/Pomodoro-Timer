@@ -79,5 +79,39 @@ body{
     transition: all 0.3s ease-in-out;
 }
 #control-timer img:hover{
-    height: 64px;
+    height: 63px;
+}
+
+@media (min-width: 320px) and (max-width: 374px){
+.header-text-div{
+    font-size: 30px;
+}
+#control-timer{
+    gap: 30px;
+}
+#control-timer img{
+    height: 40px;
+}
+#control-timer img:hover{
+    height: 38px;
+}
+}
+@media (min-width: 375px) and (max-width: 767px){
+.header-text-div{
+    font-size: 35px;
+}
+#control-timer{
+    gap: 30px;
+}
+#control-timer img{
+    height: 45px;
+}
+#control-timer img:hover{
+    height: 43px;
+}
+}
+@media (min-width: 768px) and (max-width: 1114px){
+.header-text-div{
+    font-size: 65px;
+}
 }
