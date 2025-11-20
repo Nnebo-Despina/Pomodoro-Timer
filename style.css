@@ -3,16 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-@font-face {
-    font-family: 'Prompt';
-    src: url(/FONTS/Prompt/Prompt-Regular.ttf);
-}
-@font-face {
-    font-family: 'Prompt-m';
-    src: url(/FONTS/Prompt/Prompt-Light.ttf);
-}
 body{
     background-color: #FFDBF7;
+    font-family: "Prompt", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 .first-header{
     display: flex;
@@ -33,7 +28,6 @@ body{
 #start-button-beginning{
     color: #FF00C7;
     font-size: 20px;
-    font-family: 'Prompt';
     background-color: transparent;
     border: 0.5px solid #FF00C7;
     padding: 8px 30px;
@@ -49,7 +43,6 @@ body{
 #start-button-second{
     color: #FF00C7;
     font-size: 20px;
-    font-family: 'Prompt';
     background-color: transparent;
     border: 0.5px solid #FF00C7;
     padding: 8px 30px;
@@ -67,7 +60,6 @@ body{
     display: flex;
     color: #FF00C7;
     font-size: 80px;
-    font-family: 'Prompt';
 }
 
 #control-timer{
