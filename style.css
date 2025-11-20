@@ -34,6 +34,9 @@ body{
     width: fit-content;
     border-radius: 20px;
     transition: 0.3s all ease-in; 
+    font-family: "Prompt", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 #start-button-beginning:hover{
     background-color: #FF00C7;
@@ -50,6 +53,9 @@ body{
     border-radius: 20px;
     display: none;
     transition: 0.3s all ease-in;
+    font-family: "Prompt", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 #start-button-second:hover{
     background-color: #FF00C7;
@@ -60,11 +66,17 @@ body{
     display: flex;
     color: #FF00C7;
     font-size: 80px;
+    font-family: "Prompt", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 #control-timer{
     display: none;
     gap: 60px;
+    font-family: "Prompt", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 #control-timer img{
     height: 65px;
